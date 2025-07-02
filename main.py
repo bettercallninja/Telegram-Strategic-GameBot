@@ -60,7 +60,7 @@ user_context = {}
 
 
 def is_group_chat(message):
-    return message.chat.type in ['group']
+    return message.chat.type in ['supergroup']
 
 
 @bot.message_handler(commands=['setlord'])
